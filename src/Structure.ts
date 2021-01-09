@@ -1,5 +1,5 @@
 import { Level2Type, Level3Type, Type } from './Type';
-
+////
 export class Structure {
   public readonly koatuu: string;
 
