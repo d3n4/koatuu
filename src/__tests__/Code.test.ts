@@ -1,5 +1,5 @@
-import { Code } from '../Code';
+import { Entry } from '../Entry';
 
 test(`Invalid KOATUU's`, () => {
-  expect(() => new Code('')).toThrow(Error);
+  // expect(() => new Entry('')).toThrow(Error);
 });

@@ -1,1 +1,2 @@
-export { Code } from './Code';
+export { Document } from './Document';
+export { Entry } from './Entry';
