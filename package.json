@@ -1,7 +1,7 @@
 {
     "name": "koatuu",
     "author": "d3n4",
-    "version": "1.0.15",
+    "version": "1.0.16",
     "description": "",
     "keywords": [
         "KOATUU",
@@ -20,7 +20,7 @@
         "prepare": "npm run build",
         "prepublishOnly": "npm test && npm run lint",
         "preversion": "npm run lint",
-        "version": "npm run format && git add -A && git commit -m \"version update\" && npm version patch",
+        "version": "npm run format && git add -A && git commit -m \"version update\"",
         "postversion": "git push && git push --tags && npm publish"
     },
     "repository": {
