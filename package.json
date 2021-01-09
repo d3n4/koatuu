@@ -20,10 +20,10 @@
         "prepare": "npm run build",
         "prepublishOnly": "npm test && npm run lint",
         "preversion": "npm run lint",
-        "version": "npm run format && git add -A && git commit -m ",
-        "version:major": "npm run version \"major version update\" && npm version major",
-        "version:minor": "npm run version \"minor version update\" && npm version minor",
-        "version:patch": "npm run version \"patch version update\" && npm version patch",
+        "version": "npm run format && git add -A && git commit -m \"version update\"",
+        "version:major": "npm run version && npm version major",
+        "version:minor": "npm run version && npm version minor",
+        "version:patch": "npm run version && npm version patch",
         "postversion": "git push && git push --tags && npm publish"
     },
     "repository": {
