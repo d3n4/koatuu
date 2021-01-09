@@ -17,7 +17,6 @@ export class Structure {
 
     this.koatuu = koatuu.padStart(10, '0');
 
-
     this.level1Code = koatuu.substr(0, 2);
     this.level2Type = +koatuu.substr(2, 1) as Level2Type;
     this.level2Code = koatuu.substr(3, 2);
